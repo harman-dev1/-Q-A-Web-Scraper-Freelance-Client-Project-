@@ -1,6 +1,7 @@
 Web Scraping & Data Processing Pipeline
 
 Overview
+
 This project is a complete data pipeline that:
 
 Scrapes question–answer data from a website
@@ -12,6 +13,7 @@ Applies basic LaTeX formatting to mathematical expressions
 The goal is to transform raw web data into a clean, structured, and usable format.
 
 Tech Stack
+
 Python
 BeautifulSoup (HTML parsing)
 Requests (HTTP requests)
@@ -19,6 +21,7 @@ Pandas (data processing)
 JSON (data storage)
 
 Project Workflow
+
 1. Web Scraping
 Scrapes Q&A data from multiple pages
 Extracts:
@@ -43,11 +46,13 @@ Outputs:
 formatted_data_corrected.json
 
 Output Files
+
 Excel files (raw scraped data)
 combined_data.json
 formatted_data_corrected.json
 
 How to Run
+
 1. Install Dependencies
 pip install requests beautifulsoup4 pandas openpyxl
 2. Run Scraper
